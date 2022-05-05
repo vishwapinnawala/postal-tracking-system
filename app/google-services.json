@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "325843760289",
+    "project_id": "postaltracking-b1c31",
+    "storage_bucket": "postaltracking-b1c31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325843760289:android:058be18071e47b76f8ece0",
+        "android_client_info": {
+          "package_name": "com.postaltracking.lk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325843760289-mgat78urjb69n5u6meunc3th36qti8iv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhNffZVv3vw_cPgVMH9NDijEDLAxYpZ1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325843760289-mgat78urjb69n5u6meunc3th36qti8iv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

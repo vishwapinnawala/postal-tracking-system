@@ -1,5 +1,3 @@
 package com.postaltracking.lk
 
-class dbcon{
-
-}
+data class dbcon()
