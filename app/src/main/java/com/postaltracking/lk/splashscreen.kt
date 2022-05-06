@@ -9,6 +9,7 @@ import android.content.Intent
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        supportActionBar?.hide()
         setContentView(R.layout.splashscreen)
 
         window.setFlags(
@@ -19,6 +20,6 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, selectionwindow::class.java)
             startActivity(intent)
             finish()
-        }, 3000)
+        }, 1000)
     }
 }
