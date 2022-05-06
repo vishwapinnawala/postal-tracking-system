@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Postaltracking">
         <activity
+            android:name=".postofficedash"
+            android:exported="false" />
+        <activity
+            android:name=".postlogin"
+            android:exported="false" />
+        <activity
             android:name=".userdashboard"
             android:exported="false" />
         <activity

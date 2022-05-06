@@ -20,14 +20,18 @@ import com.postaltracking.lk.databinding.ActivitySelectionwindowBinding
 class selectionwindow : AppCompatActivity() {
 private lateinit var binding : ActivitySelectionwindowBinding
 private lateinit var database : DatabaseReference
-var newpwd=""
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         supportActionBar?.hide()
         binding= ActivitySelectionwindowBinding.inflate(layoutInflater)
         setContentView(binding.root)
         //setContentView(R.layout.activity_selectionwindow)
-        binding.loginbtn.setOnClickListener{
+        binding.pofficebtn.setOnClickListener{
+            val intent = Intent(this, postlogin::class.java)
+            startActivity(intent)
+        }
+             binding.loginbtn.setOnClickListener{
             val email=binding.emailtet.text.toString()
             val pwd=binding.pwdtext.text.toString()
 
@@ -62,7 +66,7 @@ var newpwd=""
         if(pwd==newpwd){
             Toast.makeText(this, "Login Successfull", Toast.LENGTH_SHORT).show()
             addsession(email,pwd)
-            val intent = Intent(this, signup::class.java)
+            val intent = Intent(this, userdashboard::class.java)
             startActivity(intent)
         }
         else{

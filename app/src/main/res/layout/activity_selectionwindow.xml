@@ -62,7 +62,6 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/emaillayout"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        app:startIconDrawable="@drawable/ic_baseline_person_24"
         android:layout_width="320dp"
         android:layout_height="65dp"
         android:layout_marginStart="50dp"
@@ -72,7 +71,8 @@
         app:layout_constraintBottom_toTopOf="@+id/regbtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4">
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:startIconDrawable="@drawable/ic_baseline_person_24">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/emailtet"
@@ -85,7 +85,6 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/pwdlayout"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        app:startIconDrawable="@drawable/ic_baseline_vpn_key_24"
         android:layout_width="320dp"
         android:layout_height="65dp"
         android:layout_marginStart="50dp"
@@ -94,7 +93,8 @@
         app:layout_constraintBottom_toTopOf="@+id/regbtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4">
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:startIconDrawable="@drawable/ic_baseline_vpn_key_24">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/pwdtext"
@@ -103,5 +103,19 @@
             android:layout_height="match_parent"
             android:hint="Password" />
     </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/pofficebtn"
+        android:layout_width="162dp"
+        android:layout_height="48dp"
+        android:text="Post Office?"
+        android:textAlignment="viewStart"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.93" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

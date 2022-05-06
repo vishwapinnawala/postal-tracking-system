@@ -5,8 +5,10 @@
       <map>
         <entry key="..\:/Users/vishw/AndroidStudioProjects/postaltracking/app/src/main/res/layout/activity_fullscreen.xml" value="0.21041666666666667" />
         <entry key="..\:/Users/vishw/AndroidStudioProjects/postaltracking/app/src/main/res/layout/activity_main.xml" value="0.21041666666666667" />
+        <entry key="..\:/Users/vishw/AndroidStudioProjects/postaltracking/app/src/main/res/layout/activity_postlogin.xml" value="0.25" />
         <entry key="..\:/Users/vishw/AndroidStudioProjects/postaltracking/app/src/main/res/layout/activity_selectionwindow.xml" value="0.2" />
         <entry key="..\:/Users/vishw/AndroidStudioProjects/postaltracking/app/src/main/res/layout/activity_signup.xml" value="0.25" />
+        <entry key="..\:/Users/vishw/AndroidStudioProjects/postaltracking/app/src/main/res/layout/activity_userdashboard.xml" value="0.22" />
         <entry key="..\:/Users/vishw/AndroidStudioProjects/postaltracking/app/src/main/res/layout/splashscreen.xml" value="0.22" />
       </map>
     </option>
