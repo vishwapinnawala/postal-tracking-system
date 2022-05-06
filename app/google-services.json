@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "325843760289",
+    "firebase_url": "https://postaltracking-b1c31-default-rtdb.firebaseio.com",
     "project_id": "postaltracking-b1c31",
     "storage_bucket": "postaltracking-b1c31.appspot.com"
   },
