@@ -14,3 +14,10 @@ dependencyResolutionManagement {
 }
 rootProject.name = "postaltracking"
 include ':app'
+dependencyResolutionManagement {
+
+    repositories {
+
+        maven { url 'https://jitpack.io' }
+    }
+}

@@ -49,7 +49,7 @@ class postlogin : AppCompatActivity() {
         if(pwd.equals(newpwd)){
             Toast.makeText(this, "Login Successfull", Toast.LENGTH_SHORT).show()
             addsession(uname,pwd)
-            val intent = Intent(this, postlogin::class.java)
+            val intent = Intent(this, postofficedash::class.java)
             startActivity(intent)
         }
         else{

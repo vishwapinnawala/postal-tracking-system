@@ -17,10 +17,6 @@ import java.sql.DriverManager
 import java.sql.ResultSet
 import java.sql.SQLException
 import com.postaltracking.lk.databinding.ActivitySignupBinding
-import androidx.compose.foundation.isSystemInDarkTheme
-import androidx.compose.runtime.SideEffect
-import androidx.compose.ui.graphics.Color
-import com.google.accompanist.systemuicontroller.rememberSystemUiController
 
 
 class signup : AppCompatActivity() {
