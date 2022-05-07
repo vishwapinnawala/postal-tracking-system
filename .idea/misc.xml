@@ -3,10 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/vishw/AndroidStudioProjects/postaltracking/app/src/main/res/drawable/box.xml" value="0.2055" />
+        <entry key="..\:/Users/vishw/AndroidStudioProjects/postaltracking/app/src/main/res/drawable/ic__0944201.xml" value="0.2055" />
+        <entry key="..\:/Users/vishw/AndroidStudioProjects/postaltracking/app/src/main/res/drawable/ic_g10.xml" value="0.2055" />
+        <entry key="..\:/Users/vishw/AndroidStudioProjects/postaltracking/app/src/main/res/drawable/ox.xml" value="0.2055" />
         <entry key="..\:/Users/vishw/AndroidStudioProjects/postaltracking/app/src/main/res/layout/activity_fullscreen.xml" value="0.21041666666666667" />
         <entry key="..\:/Users/vishw/AndroidStudioProjects/postaltracking/app/src/main/res/layout/activity_main.xml" value="0.21041666666666667" />
-        <entry key="..\:/Users/vishw/AndroidStudioProjects/postaltracking/app/src/main/res/layout/activity_postlogin.xml" value="0.25" />
+        <entry key="..\:/Users/vishw/AndroidStudioProjects/postaltracking/app/src/main/res/layout/activity_postlogin.xml" value="0.22" />
         <entry key="..\:/Users/vishw/AndroidStudioProjects/postaltracking/app/src/main/res/layout/activity_postofficedash.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/vishw/AndroidStudioProjects/postaltracking/app/src/main/res/layout/activity_postofficenav.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/vishw/AndroidStudioProjects/postaltracking/app/src/main/res/layout/activity_selectionwindow.xml" value="0.2" />
         <entry key="..\:/Users/vishw/AndroidStudioProjects/postaltracking/app/src/main/res/layout/activity_signup.xml" value="0.25" />
         <entry key="..\:/Users/vishw/AndroidStudioProjects/postaltracking/app/src/main/res/layout/activity_userdashboard.xml" value="0.22" />
