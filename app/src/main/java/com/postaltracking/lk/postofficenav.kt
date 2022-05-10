@@ -22,5 +22,9 @@ class postofficenav : AppCompatActivity() {
             val intent = Intent(this, addtopostman::class.java)
             startActivity(intent)
         }
+        binding.button2.setOnClickListener{
+            val intent = Intent(this, addpackage::class.java)
+            startActivity(intent)
+        }
     }
 }

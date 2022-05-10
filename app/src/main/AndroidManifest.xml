@@ -16,6 +16,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Postaltracking">
         <activity
+            android:name=".addpackage"
+            android:exported="false" />
+        <activity
             android:name=".testacti"
             android:exported="false" />
         <activity
